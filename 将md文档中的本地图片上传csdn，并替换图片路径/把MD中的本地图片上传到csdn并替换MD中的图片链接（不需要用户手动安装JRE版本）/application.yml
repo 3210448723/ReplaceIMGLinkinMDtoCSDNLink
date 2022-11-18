@@ -1,0 +1,14 @@
+# 自定义配置文件
+custom:
+  # 原md文件地址（相对路径绝对路径均可）
+  ORIGIN_FILE_PATH: "笔记.md"
+  # 目标md文件地址（相对路径绝对路径均可）
+  TARGET_FILE_PATH: "1.md"
+  # csdn md编辑页面的cookie值，使用前注意修改
+  COOKIE: "uuid_tt_dd=...开头的"
+
+  # 这些不用改
+  # csdn图片服务器地址
+  # 在csdn编辑界面，打开F12，上传一张图片，拿到的相关url和cookie
+  IMG_SERVICE_URL: "https://imgservice.csdn.net/direct/v1.0/image/upload?watermark=&type=blog&rtype=markdown"
+  IMG_OSS_URL: "https://csdn-img-blog.oss-cn-beijing.aliyuncs.com/"
